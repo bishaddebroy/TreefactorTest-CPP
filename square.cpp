@@ -3,14 +3,14 @@ using namespace std;
 
 class Square {
 public:
-    // Method with basic parameter names: s for side length
-    int calculatePerimeter(int s) {
-        return 4 * s;
+    // Renamed parameter for better clarity: s -> sideLength (Renamed Variables)
+    int calculatePerimeter(int sideLength) {
+        return 4 * sideLength;
     }
 };
 
 int main() {
     Square square;
-    cout << "Perimeter of the square: " << square.calculatePerimeter(6) << endl; // 's' as parameter
+    cout << "Perimeter of the square: " << square.calculatePerimeter(6) << endl; // sideLength as parameter
     return 0;
 }
