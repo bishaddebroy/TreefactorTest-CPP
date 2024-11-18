@@ -1,2 +1,2 @@
-int calculate(int x, int y, int z) {
-                return x + y + z;}
+int calculate(int n, int y, int z) {
+                return n + y + z;}
